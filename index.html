@@ -12,11 +12,18 @@
     <link rel="apple-touch-icon" href="icon.jpg">
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css?v=2">
 </head>
 
 <body>
-    <h1 class="disclaimer">NO</h1>
+    <h1 class="disclaimer">¡SÍ!</h1>
+    <img src="img/toñi_gatos.jpg" alt="Las cejasd de Toñi" class="cejas">
+
+    <script type="text/javascript">
+        var cejas = ['img/toñi_gatos.jpg', 'img/toñi_irene.jpg'];
+        var rnd = Math.round(Math.random());
+        document.querySelector('.cejas').src = cejas[rnd];
+    </script>
 </body>
 
 </html>
